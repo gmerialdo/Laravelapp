@@ -6,6 +6,7 @@
 
 - cd Laravelapp
 - cp .env.example .env
+- docker run --rm -v $(pwd):/Laravelapp composer/composer install
 - sail up -d
 
 ## Run the migrations etc. 
